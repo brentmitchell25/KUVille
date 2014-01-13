@@ -1,0 +1,122 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="9"
+        android:orientation="vertical" >
+	<com.markupartist.android.widget.PullToRefreshListView
+	    android:id="@+id/android:list"
+	    android:layout_height="match_parent"
+	    android:layout_width="match_parent"
+	    />
+        
+        
+        <Space
+            android:id="@+id/space3"
+            android:layout_width="52dp"
+            android:layout_height="1dp" />
+
+        <Space
+            android:id="@+id/space4"
+            android:layout_width="1dp"
+            android:layout_height="21dp" />
+
+        <Space
+            android:layout_width="23dp"
+            android:layout_height="1dp" />
+
+        <Space
+            android:id="@+id/space1"
+            android:layout_width="80dp"
+            android:layout_height="1dp" />
+
+        <Space
+            android:id="@+id/space2"
+            android:layout_width="1dp"
+            android:layout_height="117dp" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="322dp" />
+
+        <TextView
+            android:id="@+id/gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/space4"
+            android:layout_alignParentRight="true"
+            android:text="@string/gold" />
+
+        <TabHost
+            android:id="@android:id/tabhost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/space4" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="383dp"
+                    android:layout_height="wrap_content" >
+                </TabWidget>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <LinearLayout
+                        android:id="@+id/twitter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:text="@string/twitter" />
+					<LinearLayout
+                        android:id="@+id/facebook"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:text="@string/facebook" />
+                    <LinearLayout
+                        android:id="@+id/building"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:text="@string/eaton" />
+
+                    
+
+                   
+                    
+
+                    <LinearLayout
+                        android:id="@+id/upgrades"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:text="@string/upgrades" />
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="272dp"
+            android:layout_height="181dp"
+            android:layout_below="@+id/space2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:contentDescription="@string/building"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</ScrollView>

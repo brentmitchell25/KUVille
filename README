@@ -1,0 +1,25 @@
+Install Easy Way: Open KUVille/bin and to install
+	- On Phone: move the file to Android device, open it, and install it 
+	(may warn about installing third-party unlicensed software)
+	- On Emulator: run the command "adb install KUVille.apk" with the emulator open (adb can be found
+	in Android SDK tools folder)
+	- NOTE: Must have version 4.0 or later to run!
+
+Hard Install:
+1. The project contains the main project folder, along with additional libraries. The additional folders are libraries used.
+	-Folders
+		1. KUVille
+		2. MapLibrary
+		3. FacebookSDK
+		4. google-play-services_lib
+		5. TestKUVille
+2. To compile the folders:
+	1. Open the Eclipse ADT provided by Google (http://developer.android.com/tools/sdk/eclipse-adt.html) and import all the folders.
+	2. Right-click on KUVille and go to Properties -> Android
+	3. Verify or add the Facebook, Google services, and Map Libraries
+	4. Compile and run the project on Android device*
+	*Facebook will not work because individual hash-keys of the compiling computer needed to be added to 
+	the developer site on Facebook
+	** Twitter should still login (but is not required for this version) to get Twitter feeds
+3. There are two available maps to use, our MapLibrary developed by Jamie or Google maps.
+	- To switch maps open MainFragment.java and uncomment the two startActivity methods (and comment the two that are not)

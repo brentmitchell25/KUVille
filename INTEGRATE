@@ -1,0 +1,4 @@
+The integration tests of the two modules was the KUVille project and MapLibrary 
+project. The MapLibrary is only called once in MainFragment and the library returns 
+the object that is pressed with a single intent in the onClick method in 
+the BuildingMapAreaBox.java class.

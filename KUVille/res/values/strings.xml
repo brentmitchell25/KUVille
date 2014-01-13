@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KUVille</string>
+    <string name="app_id">1408599362708705</string>
+    <string name="log_out">Log Out</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="gold">Gold</string>
+    <string name="upgrades">Upgrades</string>
+    <string name="loginTwitter">Login with Twitter</string>
+    <string name="next">Next</string>
+    <string name="eaton">Eaton</string>
+    <string name="building">Building Image</string>
+    <string name="logoutButton">Login/Logout From Twitter</string>
+
+</resources>

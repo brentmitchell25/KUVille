@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="buildings">
+        <item>eaton_hall</item>
+        <item>allenfieldhouse</item>
+        <item>greenhall</item>
+        <item>kansasunion</item>
+        <item>malotthall</item>
+        <item>stronghall</item>
+    </string-array>
+    <string-array name="buildingname">
+        <item>Eaton Hall</item>
+        <item>Allen Fieldhouse</item>
+        <item>Green Hall</item>
+        <item>Kansas Union</item>
+        <item>Malott Hall</item>
+        <item>Strong Hall</item>
+    </string-array>
+    <string-array name="facebook">
+        <item>65218702360</item>
+        <item>40139773841</item>
+        <item>79787342129</item>
+        <item>131105473572540</item>
+        <item>216767658378912</item>
+        <item>44728562961</item>
+    </string-array>
+    <string-array name="twitter">
+        <item>kuengineering</item>
+        <item>KUAthletics</item>
+        <item></item>
+        <item>kuunion</item>
+        <item></item>
+        <item>KUNews</item>
+    </string-array>
+</resources>

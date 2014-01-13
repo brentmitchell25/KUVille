@@ -1,0 +1,9 @@
+1. We didn't make our own GUI unit tests, Android has a tool to do that for 
+us. With the emulator/phone app running use the command "adb shell monkey -p com.eecs448.kuville -v 1000" in
+ the Android SDK/tools folder. 1000 (variable) is the number of GUI instances  the monkey tries at the app.
+ 
+ 2. Open the TestKUVille for the single JUnit test. This runs to test the number of children of the Facebook,
+ Twitter, and Upgrade tabs.
+ 
+ 3. The output of the saved databases (Facebook, Twitter, and Upgrades) is in the DATABASE.txt file. This can be viewed 
+ in LogCat whenever a tab is pressed, the corresponding database logs itself.
